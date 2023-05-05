@@ -1,4 +1,4 @@
-var GHPATH = '/';
+var GHPATH = '';
 var APP_PREFIX = 'kaljakello_';
 var VERSION = 'version_000';
 var URLS = [    

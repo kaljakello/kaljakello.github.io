@@ -5,15 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kaljakello</title>
   <link rel="canonical" href="https://kaljakello.github.io/" />
-  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
- 
-  <h1>Kaljakello</h1>
-  <p>
-    Koska on aika ottaa. 
-  </p>
+
+  <h2>Monta kaljaa on?</h2>
+  <div class="btn-group" id="beers">
+    <button>2</button>
+    <button>3</button>
+    <button>4</button>
+    <button>5</button>
+    <button>6</button>
+    <button>7</button>
+    <button>8</button>
+    <button>9</button>
+    <button>10</button>
+  </div> 
+
+  <h2>Monta tuntia on?</h2>
+  <div class="btn-group" id="hours">
+    <button>2</button>
+    <button>3</button>
+    <button>4</button>
+    <button>5</button>
+    <button>6</button>
+    <button>7</button>
+    <button>8</button>
+    <button>9</button>
+    <button>10</button>
+  </div> 
+
+  <button id="start">Ala ottaa</button>
+
+  <ol id="results"></ol>
 
   <script>
       if (navigator.serviceWorker) {
