@@ -1,0 +1,17 @@
+{
+  "name": "Kaljakello",
+  "short_name": "Kaljakello",
+  "description": "Koska on aika ottaa",
+  "scope": "/",
+  "start_url": "/",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "display": "standalone", 
+  "icons": [
+      {
+        "src": "/img/icon.png",
+        "type": "image/png",
+        "sizes": "500x500"
+      }
+  ]
+}

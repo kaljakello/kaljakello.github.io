@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kaljakello</title>
+  <link rel="canonical" href="https://kaljakello.github.io/" />
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+ 
+  <h1>Kaljakello</h1>
+  <p>
+    Koska on aika ottaa. 
+  </p>
+
+  <script>
+      if (navigator.serviceWorker) {
+        navigator.serviceWorker.register (
+          '/sw.js',
+          {scope: '/'}
+        )
+      }
+  </script>
+  <script src="js/app.js"></script>
+</body>
+</html>
