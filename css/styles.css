@@ -1,35 +1,56 @@
 body {
     font-family: 'Helvetica', Arial, sans-serif;
-    color: black;
+    font-size: 14px;
+    color: rgb(36, 36, 36);
     margin: 0;
-    padding: 2em;
+    padding: 1.1em;
     height: 90vh;
     background: url(../img/icon.png) 95% 95% no-repeat;
     background-size: 20vh;
     text-align: center;
-    background-color: whitesmoke;
+    background-color: rgb(250, 234, 207);
+    background-blend-mode: soft-light;    
 }
 
 button {
-  background-color: white; /* Green background */
-  border: 3px solid black; /* Green border */
-  padding: 15px 20px; /* Some padding */
+  background-color: rgb(255, 180, 180);
+  padding: 1.1em 1.4em; /* Some padding */
   margin: 3px;
   cursor: pointer; /* Pointer/hand icon */
-  border-radius: 5px;
+  border-radius: 5em;
+  font-size: 1.1em;
+  color: black;
+  font-weight: bold;
+}
+
+button#start {
+  margin: 20px 0;
+  width: 100%;
 }
 
 button:hover, button.active {
   background-color: orange;
-  color: white;
+  color: black;
 }
 
-button#start {
-  width: 100%;
-  margin: 20px 0;
-}
+
 
 ol {
   text-align: left;
-  font-size: 1.2em;
+  font-size: 1em;
+}
+
+#mins {
+  font-size: 0.8em;
+}
+
+h2, h3 {
+  font-size: 2em;
+  padding: 0;
+  margin: 0.6em 0px 0px 0px;
+  font-weight: 100;
+}
+
+h3 {
+  font-size: 1.5em;
 }
