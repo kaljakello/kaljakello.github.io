@@ -1,6 +1,6 @@
 var GHPATH = '';
 var APP_PREFIX = 'kaljakello_';
-var VERSION = 'version_000';
+var VERSION = 'version_001';
 var URLS = [    
   `${GHPATH}/`,
   `${GHPATH}/index.html`,
